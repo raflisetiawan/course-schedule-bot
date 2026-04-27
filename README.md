@@ -16,9 +16,9 @@ Bot Discord untuk mahasiswa Informatika **UISI** yang memungkinkan pengecekan ja
 ## 📸 Contoh Penggunaan
 
 ```
-/bot-course-schedule pesan: IF 2A hari ini ada kelas apa?
-/bot-course-schedule pesan: besok IF-4B kuliah nggak?
-/bot-course-schedule pesan: jadwal IF-6A hari Kamis
+/jadwal pesan: IF 2A hari ini ada kelas apa?
+/jadwal pesan: besok IF-4B kuliah nggak?
+/jadwal pesan: jadwal IF-6A hari Kamis
 /help-schedule
 ```
 
@@ -130,7 +130,7 @@ Discord Embed
 
 | Command | Deskripsi |
 |---------|-----------|
-| `/bot-course-schedule pesan:<teks>` | Tanya jadwal kuliah dengan bahasa bebas |
+| `/jadwal pesan:<teks>` | Tanya jadwal kuliah dengan bahasa bebas |
 | `/help-schedule` | Panduan penggunaan bot |
 
 ---

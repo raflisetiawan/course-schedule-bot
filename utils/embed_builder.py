@@ -137,7 +137,7 @@ def build_help_embed() -> discord.Embed:
     embed.add_field(
         name="🗣️ Cara Pakai",
         value=(
-            "Gunakan slash command `/bot-course-schedule` lalu tulis pertanyaanmu.\n"
+            "Gunakan slash command `/jadwal` lalu tulis pertanyaanmu.\n"
             "Tidak perlu format khusus — pakai bahasa sehari-hari!"
         ),
         inline=False,

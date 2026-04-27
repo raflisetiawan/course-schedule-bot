@@ -34,11 +34,11 @@ class JadwalCog(commands.Cog):
         self.bot = bot
 
     # ──────────────────────────────────────────────────────────
-    # Slash command: /bot-course-schedule
+    # Slash command: /jadwal
     # ──────────────────────────────────────────────────────────
 
     @app_commands.command(
-        name="bot-course-schedule",
+        name="jadwal",
         description="Tanya jadwal kuliah Informatika UISI pakai bahasa sehari-hari! 📅",
     )
     @app_commands.describe(

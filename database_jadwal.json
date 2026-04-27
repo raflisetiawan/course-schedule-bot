@@ -1,0 +1,1015 @@
+{
+  "institusi": "UISI",
+  "program_studi": "Informatika (IF)",
+  "keterangan": {
+    "GS": "Semester Gasal (TA 2025/2026)",
+    "GN": "Semester Genap (TA 2025/2026)",
+    "slot_waktu": {
+      "1": "07:30 - 08:20",
+      "2": "08:20 - 09:10",
+      "3": "09:10 - 10:00",
+      "4": "10:00 - 10:50",
+      "5": "10:50 - 11:40",
+      "istirahat_1": "11:40 - 12:30",
+      "6": "12:30 - 13:20",
+      "7": "13:20 - 14:10",
+      "8": "14:10 - 15:00",
+      "istirahat_2": "15:00 - 15:30",
+      "9": "15:30 - 16:20",
+      "10": "16:20 - 17:10",
+      "11": "17:10 - 18:00",
+      "istirahat_3": "18:00 - 18:30",
+      "12": "18:30 - 19:20",
+      "13": "19:20 - 20:10",
+      "14": "20:10 - 21:00"
+    },
+    "hari": {
+      "Mo": "Senin",
+      "Tu": "Selasa",
+      "We": "Rabu",
+      "Th": "Kamis",
+      "Fr": "Jumat",
+      "Sa": "Sabtu"
+    }
+  },
+  "jadwal": {
+    "GS": {
+      "label": "Semester Gasal TA 2025/2026",
+      "generated": "26/09/2025",
+      "kelas": {
+        "IF-1A": {
+          "mata_kuliah": [
+            {
+              "nama": "Pemrograman 1",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "MNI",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3,
+              "kode_ruang": "Lab 2"
+            },
+            {
+              "nama": "Statistika Dasar",
+              "tipe": "Teori",
+              "ruang": "G3 R4",
+              "dosen": "PAY",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Matematika Diskret",
+              "tipe": "Teori",
+              "ruang": "G3 R4",
+              "dosen": "NGT / MZF",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Agama",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "MNF",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pengantar Teknologi Informasi",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "NGT / TQB",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-1B": {
+          "mata_kuliah": [
+            {
+              "nama": "Matematika Diskret",
+              "tipe": "Teori",
+              "ruang": "G2 R2",
+              "dosen": "NGT / MNI",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman 1",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "MNI",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Statistika Dasar",
+              "tipe": "Teori",
+              "ruang": "B3 R2",
+              "dosen": "PAY",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Agama",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "MNF",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pengantar Teknologi Informasi",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "NGT / TQB",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-3A": {
+          "mata_kuliah": [
+            {
+              "nama": "Jaringan Komputer",
+              "tipe": "Teori",
+              "ruang": "G3 R2",
+              "dosen": "TQB",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Sistem Basis Data",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "LHY",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Rekayasa Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 205",
+              "dosen": "TQB",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 2
+            },
+            {
+              "nama": "Metode Numerik",
+              "tipe": "Teori",
+              "ruang": "CM 101",
+              "dosen": "NGT / PAY",
+              "hari": "Rabu",
+              "slot_mulai": 3,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Interaksi Manusia-Komputer",
+              "tipe": "Teori",
+              "ruang": "CM 101",
+              "dosen": "LHY",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            },
+            {
+              "nama": "Algoritma dan Struktur Data",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "MZF",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman 2",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "MZF",
+              "hari": "Sabtu",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            }
+          ]
+        },
+        "IF-3B": {
+          "mata_kuliah": [
+            {
+              "nama": "Interaksi Manusia-Komputer",
+              "tipe": "Teori",
+              "ruang": "G4 R4",
+              "dosen": "LHY",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            },
+            {
+              "nama": "Pemrograman 2",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "MZF",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Sistem Basis Data",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "LHY",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Algoritma dan Struktur Data",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "MZF",
+              "hari": "Rabu",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Jaringan Komputer",
+              "tipe": "Teori",
+              "ruang": "CM 208",
+              "dosen": "TQB",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Metode Numerik",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "NGT / PAY",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Rekayasa Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 102",
+              "dosen": "TQB",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-5A": {
+          "mata_kuliah": [
+            {
+              "nama": "Manajemen Proyek Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "ADF",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman Aplikasi Mobile",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "MZF",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            },
+            {
+              "nama": "Keamanan Siber",
+              "tipe": "Teori",
+              "ruang": "G3 R4",
+              "dosen": "YIR",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            },
+            {
+              "nama": "Bahasa Indonesia",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "ARI",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Rekayasa Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "TQB",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Analisis Kebutuhan Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G2 R3",
+              "dosen": "TQB",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Alat dan Teknik Pemrograman",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "YIR",
+              "hari": "Sabtu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-5B": {
+          "mata_kuliah": [
+            {
+              "nama": "Alat dan Teknik Pemrograman",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "YIR",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 4
+            },
+            {
+              "nama": "Manajemen Proyek Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "ADF",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman Aplikasi Mobile",
+              "tipe": "Lab",
+              "ruang": "Lab 1",
+              "dosen": "MNI",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Bahasa Indonesia",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "ARI",
+              "hari": "Rabu",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Analisis Kebutuhan Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G2 R2",
+              "dosen": "TQB",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Rekayasa Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "TQB",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Keamanan Siber",
+              "tipe": "Teori",
+              "ruang": "G3 R1",
+              "dosen": "YIR",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-7A": {
+          "mata_kuliah": [
+            {
+              "nama": "Deep Learning",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "MZF",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Permodelan dan Simulasi",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "PAY",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pengujian Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "ADF",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Proyek Pengembangan Perangkat Lunak",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "YIR",
+              "hari": "Rabu",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Internet of Things",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "YIR",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Metodologi Penelitian",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "NGT / PAY",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Cloud Computing",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "MNI",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Bahasa Indonesia",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "ARI",
+              "hari": "Sabtu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-7B": {
+          "catatan": "Jadwal IF-7B sama dengan IF-7A (identik di PDF)",
+          "mata_kuliah": [
+            {
+              "nama": "Deep Learning",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "MZF",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Permodelan dan Simulasi",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "PAY",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pengujian Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "ADF",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Proyek Pengembangan Perangkat Lunak",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "YIR",
+              "hari": "Rabu",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Internet of Things",
+              "tipe": "Lab",
+              "ruang": "Lab 2",
+              "dosen": "YIR",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Metodologi Penelitian",
+              "tipe": "Teori",
+              "ruang": "G4 R1",
+              "dosen": "NGT / PAY",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 5
+            },
+            {
+              "nama": "Cloud Computing",
+              "tipe": "Lab",
+              "ruang": "Lab 3 (CM 301)",
+              "dosen": "MNI",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Bahasa Indonesia",
+              "tipe": "Teori",
+              "ruang": "G4 R2",
+              "dosen": "ARI",
+              "hari": "Sabtu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        }
+      }
+    },
+    "GN": {
+      "label": "Semester Genap TA 2025/2026",
+      "generated": "29/03/2026",
+      "kelas": {
+        "IF-2A": {
+          "mata_kuliah": [
+            {
+              "nama": "Pemrograman 2",
+              "tipe": "Lab",
+              "ruang": "Lab CM 206",
+              "dosen": "MNI",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Aljabar Linear",
+              "tipe": "Teori",
+              "ruang": "CM 303",
+              "dosen": "PAY",
+              "hari": "Senin",
+              "slot_mulai": 6,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Sistem Basis Data",
+              "tipe": "Lab",
+              "ruang": "Lab CM 301",
+              "dosen": "LHY",
+              "hari": "Selasa",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Bahasa Inggris",
+              "tipe": "Teori",
+              "ruang": "CM 208",
+              "dosen": "MAF",
+              "hari": "Rabu",
+              "slot_mulai": 5,
+              "slot_selesai": 8,
+              "gabungan": "IF-2A/IF-2B"
+            },
+            {
+              "nama": "Teori Graf",
+              "tipe": "Teori",
+              "ruang": "CM 102",
+              "dosen": "PAY",
+              "hari": "Kamis",
+              "slot_mulai": 6,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Metode Numerik",
+              "tipe": "Teori",
+              "ruang": "B3 R3",
+              "dosen": "NGT",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-2B": {
+          "mata_kuliah": [
+            {
+              "nama": "Metode Numerik",
+              "tipe": "Teori",
+              "ruang": "B3 R2",
+              "dosen": "NGT",
+              "hari": "Senin",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman 2",
+              "tipe": "Lab",
+              "ruang": "Lab CM 207",
+              "dosen": "MNI",
+              "hari": "Senin",
+              "slot_mulai": 4,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Sistem Basis Data",
+              "tipe": "Lab",
+              "ruang": "Lab CM 207",
+              "dosen": "LHY",
+              "hari": "Selasa",
+              "slot_mulai": 4,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Bahasa Inggris",
+              "tipe": "Teori",
+              "ruang": "CM 208",
+              "dosen": "MAF",
+              "hari": "Rabu",
+              "slot_mulai": 5,
+              "slot_selesai": 8,
+              "gabungan": "IF-2A/IF-2B"
+            },
+            {
+              "nama": "Teori Graf",
+              "tipe": "Teori",
+              "ruang": "G2 R4",
+              "dosen": "PAY",
+              "hari": "Kamis",
+              "slot_mulai": 9,
+              "slot_selesai": 10
+            },
+            {
+              "nama": "Aljabar Linear",
+              "tipe": "Teori",
+              "ruang": "G2 R7",
+              "dosen": "PAY",
+              "hari": "Jumat",
+              "slot_mulai": 9,
+              "slot_selesai": 10
+            }
+          ]
+        },
+        "IF-4A": {
+          "mata_kuliah": [
+            {
+              "nama": "Kecerdasan Buatan",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "MZF",
+              "hari": "Senin",
+              "slot_mulai": 4,
+              "slot_selesai": 8,
+              "gabungan": "IF-4A/IF-6A"
+            },
+            {
+              "nama": "Wawasan Lingkungan",
+              "tipe": "Teori",
+              "ruang": "CM 204",
+              "dosen": "WKS",
+              "hari": "Senin",
+              "slot_mulai": 7,
+              "slot_selesai": 8,
+              "gabungan": "IF-4A/IF-4B"
+            },
+            {
+              "nama": "Analisis Kebutuhan Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 203",
+              "dosen": "TQB",
+              "hari": "Selasa",
+              "slot_mulai": 9,
+              "slot_selesai": 11
+            },
+            {
+              "nama": "Desain Pengalaman Pengguna",
+              "tipe": "Teori",
+              "ruang": "CM 103",
+              "dosen": "LHY",
+              "hari": "Rabu",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Manajemen Basis Data",
+              "tipe": "Lab",
+              "ruang": "Lab CM 207",
+              "dosen": "YIR",
+              "hari": "Rabu",
+              "slot_mulai": 9,
+              "slot_selesai": 11
+            },
+            {
+              "nama": "Analisis Data Eksploratif",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "NGT",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pemrograman Web",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "MNI",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-4B": {
+          "mata_kuliah": [
+            {
+              "nama": "Wawasan Lingkungan",
+              "tipe": "Teori",
+              "ruang": "CM 204",
+              "dosen": "WKS",
+              "hari": "Senin",
+              "slot_mulai": 7,
+              "slot_selesai": 8,
+              "gabungan": "IF-4A/IF-4B"
+            },
+            {
+              "nama": "Pemrograman Web",
+              "tipe": "Lab",
+              "ruang": "Lab CM 301",
+              "dosen": "MNI",
+              "hari": "Selasa",
+              "slot_mulai": 6,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Kecerdasan Buatan",
+              "tipe": "Teori",
+              "ruang": "CM 208",
+              "dosen": "MZF",
+              "hari": "Selasa",
+              "slot_mulai": 9,
+              "slot_selesai": 11,
+              "gabungan": "IF-4B/IF-6B"
+            },
+            {
+              "nama": "Desain Pengalaman Pengguna",
+              "tipe": "Teori",
+              "ruang": "CM 103",
+              "dosen": "LHY",
+              "hari": "Rabu",
+              "slot_mulai": 4,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Analisis Kebutuhan Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 103",
+              "dosen": "TQB",
+              "hari": "Rabu",
+              "slot_mulai": 9,
+              "slot_selesai": 11
+            },
+            {
+              "nama": "Analisis Data Eksploratif",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "NGT",
+              "hari": "Kamis",
+              "slot_mulai": 9,
+              "slot_selesai": 11
+            },
+            {
+              "nama": "Manajemen Basis Data",
+              "tipe": "Teori",
+              "ruang": "G4 R4",
+              "dosen": "YIR",
+              "hari": "Jumat",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            }
+          ]
+        },
+        "IF-6A": {
+          "mata_kuliah": [
+            {
+              "nama": "Kecerdasan Buatan",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "MZF",
+              "hari": "Senin",
+              "slot_mulai": 4,
+              "slot_selesai": 8,
+              "gabungan": "IF-4A/IF-6A"
+            },
+            {
+              "nama": "Temu-Kembali Informasi",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "TQB",
+              "hari": "Senin",
+              "slot_mulai": 7,
+              "slot_selesai": 11,
+              "gabungan": "IF-6A/IF-6B"
+            },
+            {
+              "nama": "Grafika Komputer dan Pengolahan Citra",
+              "tipe": "Teori",
+              "ruang": "CM 303",
+              "dosen": "MNI / MZF",
+              "hari": "Kamis",
+              "slot_mulai": 1,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Perancangan dan Analisa Algoritma",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "YIR / MNI",
+              "hari": "Kamis",
+              "slot_mulai": 6,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Pembelajaran Mesin",
+              "tipe": "Teori",
+              "ruang": "G2 R3",
+              "dosen": "MZF",
+              "hari": "Jumat",
+              "slot_mulai": 2,
+              "slot_selesai": 3
+            },
+            {
+              "nama": "Pengujian Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "G2 R2",
+              "dosen": "TQB",
+              "hari": "Jumat",
+              "slot_mulai": 6,
+              "slot_selesai": 11
+            }
+          ]
+        },
+        "IF-6B": {
+          "mata_kuliah": [
+            {
+              "nama": "Pengujian Perangkat Lunak",
+              "tipe": "Teori",
+              "ruang": "CM 102",
+              "dosen": "TQB",
+              "hari": "Senin",
+              "slot_mulai": 4,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Temu-Kembali Informasi",
+              "tipe": "Teori",
+              "ruang": "CM 202",
+              "dosen": "TQB",
+              "hari": "Senin",
+              "slot_mulai": 6,
+              "slot_selesai": 11,
+              "gabungan": "IF-6A/IF-6B"
+            },
+            {
+              "nama": "Kecerdasan Buatan",
+              "tipe": "Teori",
+              "ruang": "CM 208",
+              "dosen": "MZF",
+              "hari": "Selasa",
+              "slot_mulai": 9,
+              "slot_selesai": 11,
+              "gabungan": "IF-4B/IF-6B"
+            },
+            {
+              "nama": "Grafika Komputer dan Pengolahan Citra",
+              "tipe": "Teori",
+              "ruang": "G2 R4",
+              "dosen": "MNI / MZF",
+              "hari": "Rabu",
+              "slot_mulai": 6,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Pembelajaran Mesin",
+              "tipe": "Teori",
+              "ruang": "B3 R3",
+              "dosen": "MZF",
+              "hari": "Kamis",
+              "slot_mulai": 4,
+              "slot_selesai": 8
+            },
+            {
+              "nama": "Perancangan dan Analisa Algoritma",
+              "tipe": "Lab",
+              "ruang": "Lab CM 301",
+              "dosen": "YIR / MNI",
+              "hari": "Jumat",
+              "slot_mulai": 9,
+              "slot_selesai": 11
+            }
+          ]
+        },
+        "IF-8A": {
+          "catatan": "Semua matkul gabungan dengan IF-8B",
+          "mata_kuliah": [
+            {
+              "nama": "Desain dan Manajemen Jaringan",
+              "tipe": "Teori",
+              "ruang": "G3 R2",
+              "dosen": "YIR",
+              "hari": "Senin",
+              "slot_mulai": 6,
+              "slot_selesai": 8,
+              "gabungan": "IF-8A/IF-8B"
+            },
+            {
+              "nama": "Teknik Peramalan",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "PAY",
+              "hari": "Rabu",
+              "slot_mulai": 9,
+              "slot_selesai": 11,
+              "gabungan": "IF-8A/IF-8B"
+            },
+            {
+              "nama": "Animasi Komputer",
+              "tipe": "Teori",
+              "ruang": "B2 R1",
+              "dosen": "MNR",
+              "hari": "Kamis",
+              "slot_mulai": 6,
+              "slot_selesai": 8,
+              "gabungan": "IF-8A/IF-8B"
+            }
+          ]
+        },
+        "IF-8B": {
+          "catatan": "Jadwal identik dengan IF-8A, semua matkul gabungan",
+          "mata_kuliah": [
+            {
+              "nama": "Desain dan Manajemen Jaringan",
+              "tipe": "Teori",
+              "ruang": "G3 R2",
+              "dosen": "YIR",
+              "hari": "Senin",
+              "slot_mulai": 6,
+              "slot_selesai": 8,
+              "gabungan": "IF-8A/IF-8B"
+            },
+            {
+              "nama": "Teknik Peramalan",
+              "tipe": "Lab",
+              "ruang": "Lab CM 201",
+              "dosen": "PAY",
+              "hari": "Rabu",
+              "slot_mulai": 9,
+              "slot_selesai": 11,
+              "gabungan": "IF-8A/IF-8B"
+            },
+            {
+              "nama": "Animasi Komputer",
+              "tipe": "Teori",
+              "ruang": "B2 R1",
+              "dosen": "MNR",
+              "hari": "Kamis",
+              "slot_mulai": 6,
+              "slot_selesai": 8,
+              "gabungan": "IF-8A/IF-8B"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

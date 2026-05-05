@@ -76,6 +76,55 @@ class JadwalCog(commands.Cog):
         await interaction.response.send_message(embed=build_help_embed())
 
     # ──────────────────────────────────────────────────────────
+    # Slash command: /announce
+    # ──────────────────────────────────────────────────────────
+
+    @app_commands.command(
+        name="announce",
+        description="[ADMIN] Mengirim pesan pengumuman/update bot ke channel tertentu 📢",
+    )
+    @app_commands.describe(
+        channel="Pilih channel tujuan pengumuman",
+        pesan="Pesan pengumuman tambahan (opsional)"
+    )
+    @app_commands.default_permissions(administrator=True)
+    async def announce_command(self, interaction: discord.Interaction, channel: discord.TextChannel, pesan: str = None):
+        title = "📢  Pengumuman: Update Bot Jadwal UISI"
+        desc = (
+            "Halo semuanya! 👋\n\n"
+            "Bot **Course Schedule** telah hadir / diupdate untuk membantu kalian "
+            "mengecek jadwal kuliah Informatika UISI langsung dari Discord!\n\n"
+            "**Cara Pakai:**\n"
+            "Gunakan perintah `/jadwal` lalu masukkan pertanyaanmu dengan bahasa sehari-hari.\n"
+            "Contoh:\n"
+            "• `IF 2A hari ini ada kelas apa?`\n"
+            "• `Jadwal IF 4B besok`\n\n"
+            "Ketik `/help-schedule` untuk melihat panduan lengkapnya.\n"
+        )
+        
+        if pesan:
+            desc += f"\n**Pesan Tambahan:**\n{pesan}\n"
+            
+        desc += "\nSemoga bermanfaat untuk perkuliahan kita! 🚀"
+        
+        embed = discord.Embed(
+            title=title,
+            description=desc,
+            color=0x2ECC71,  # Menggunakan warna hijau yang serasi
+        )
+        embed.set_author(name="Asisten Jadwal Informatika")
+        embed.set_footer(text="Asisten Jadwal Informatika • UISI")
+
+        try:
+            await channel.send(embed=embed)
+            await interaction.response.send_message(f"✅ Pengumuman berhasil dikirim ke {channel.mention}!", ephemeral=True)
+        except discord.Forbidden:
+            await interaction.response.send_message(f"❌ Gagal mengirim: Bot tidak memiliki izin mengirim pesan di {channel.mention}.", ephemeral=True)
+        except Exception as e:
+            logger.error(f"Error sending announcement: {e}")
+            await interaction.response.send_message("❌ Terjadi kesalahan saat mengirim pengumuman.", ephemeral=True)
+
+    # ──────────────────────────────────────────────────────────
     # Error handler: cooldown
     # ──────────────────────────────────────────────────────────
 
